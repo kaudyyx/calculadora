@@ -1,5 +1,4 @@
-# calculadora
-o<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -88,6 +87,11 @@ o<!DOCTYPE html>
         <div class="button" onclick="calculate()">=</div>
         <div class="button clear" onclick="clearDisplay()">C</div>
     </div>
+    <div class="row">
+        <div class="button" onclick="addToDisplay('/')">÷</div>
+        <div class="button" onclick="addToDisplay('%')">%</div>
+        <div class="button" onclick="removeLast()">←</div>
+    </div>
 </div>
 
 <script>
@@ -105,6 +109,11 @@ o<!DOCTYPE html>
 
     function clearDisplay() {
         document.getElementById('display').value = '';
+    }
+
+    function removeLast() {
+        var displayValue = document.getElementById('display').value;
+        document.getElementById('display').value = displayValue.substring(0, displayValue.length - 1);
     }
 </script>
 
