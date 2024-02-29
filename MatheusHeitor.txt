@@ -1,0 +1,27 @@
+Usamos HTML para organizar a página.
+
+ CSS é empregado para adicionar alguns estilos simples à calculadora.
+
+ JavaScript é utilizado para aplicar a lógica da calculadora.
+
+ A função appendToDisplay é ativada quando um botão numérico ou operador é clicado.
+
+ A função clearDisplay apaga o visor.
+  Para criar um titulo<title>Calculadora Básica</title>
+    <style>
+        /* Estilos adicionais para melhorar a interface da calculadora */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+  A função calculateResult avalia a expressão matemática presente no visor usando eval e mostra o resultado no visor.
+
+   Este código cria uma calculadora simples que permite ao usuário inserir números e realizar operações por meio dos botões.
+
+   O método append(value) é acionado sempre que o usuário pressiona um botão numérico ou operador, adicionando o valor correspondente ao campo de exibição.
+
+   O método clear() limpa a exibição e o método calculate() avalia a expressão inserida, mostrando o resultado.
