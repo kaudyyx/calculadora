@@ -1,0 +1,26 @@
+DOCTYPE e html tags: Estas linhas são essenciais para definir o tipo de documento e iniciar a estrutura HTML.
+
+Head Section: Aqui, são encontrados metadados cruciais para a página, como a codificação de caracteres e o título.
+
+Style Section: Esta seção contém as regras de estilo CSS, que são responsáveis por determinar a aparência visual da página.
+CSS (Cascading Style Sheets)
+
+Estilos Gerais: Define o estilo global da página, incluindo elementos como fonte, cor de fundo e cor do texto.
+
+Estilos do Contêiner da Calculadora: Aqui são especificados os estilos para o contêiner da calculadora, como cor de fundo, sombra e margens.
+
+Estilos dos Botões e Visor: Define o estilo dos botões, do visor e outras características visuais relacionadas.
+
+JavaScript
+
+Variáveis e Funções: Declaração de variáveis utilizadas para armazenar dados e funções responsáveis por realizar cálculos e manipular elementos da calculadora.
+
+Event Listeners: Adiciona ouvintes de eventos aos botões para detectar e responder aos cliques do usuário.
+
+Toggle Dark Mode: Implementa a funcionalidade de alternar entre os modos claro e escuro, ajustando os estilos e o texto do botão conforme necessário.
+
+Interatividade
+
+Botões: Cada botão possui uma função específica associada, como adicionar números, operadores ou executar cálculos.
+
+Calculadora: Um componente visual que exibe os números e operadores inseridos pelo usuário, além de mostrar os resultados dos cálculos realizados.
